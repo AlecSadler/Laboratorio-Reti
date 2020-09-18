@@ -12,7 +12,7 @@ public class main {
         Thread th = new Thread(pi);
         th.start();
         try {
-            TimeUnit.MILLISECONDS.sleep(timeout);
+            Thread.sleep(timeout,0);
         } catch (InterruptedException e) {
             System.out.println(e.getMessage());
         }
