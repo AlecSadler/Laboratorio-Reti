@@ -1,5 +1,3 @@
-// FIRERA SALVO MAT.578018 A
-
 public class Tesista implements Runnable {
     private Laboratorio lab = null;
     private int id;
