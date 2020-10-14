@@ -1,5 +1,3 @@
-// FIRERA SALVO MAT.578018 A
-
 public class Prof implements Runnable {
     private int accessi;
     private Laboratorio lab = null;
