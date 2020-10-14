@@ -1,5 +1,3 @@
-// FIRERA SALVO MAT.578018 A
-
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
