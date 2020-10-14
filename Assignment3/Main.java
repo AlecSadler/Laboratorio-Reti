@@ -1,5 +1,3 @@
-// FIRERA SALVO MAT.578018 A
-
 public class Main {
     public static void main (String[] args) {
         // inizializzazione laboratorio
