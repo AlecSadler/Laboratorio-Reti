@@ -1,5 +1,3 @@
-// FIRERA SALVO MAT.578018 A
-
 public class Studente implements Runnable {
     private int id;
     private int accessi;
