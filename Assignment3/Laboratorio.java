@@ -60,7 +60,7 @@ public class Laboratorio {
             this.lockLab.lock();
             int pos = (int)(Math.random()*19);
             try {
-                while (this.pc[pos] == 1 || busy == 20) {
+                while (this.pc[pos] == 1 || this.busy == 20) {
                     this.condT.await();
                 }
                 System.out.println("Entra tesista "+id+" in postazione "+pos);
