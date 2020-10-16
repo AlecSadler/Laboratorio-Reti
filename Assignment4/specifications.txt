@@ -1,0 +1,1 @@
+Riprodurre l'assigmnent 3 utilizzando i monitor come meccanismi di sincronizzazione.
