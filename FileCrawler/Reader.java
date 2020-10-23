@@ -17,6 +17,7 @@ public class Reader implements Runnable {
             }
             if (dirList.viewLast().equals("Stop")) {   // se incontro stop termino
                 dirList.lockRelease();
+                System.out.println(Thread.currentThread().getName() + " termina");
                 return;
             }
             File file = new File(dirList.extractLast());
